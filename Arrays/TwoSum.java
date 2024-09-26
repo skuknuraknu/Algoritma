@@ -8,6 +8,8 @@ public class TwoSum {
         int[] nums = new int[]{ -5, 6, 7, 2, -1, 5, 2 };
         twoSum(nums, 7);
     }
+
+    // O(n) solution
     private static void twoSum( int[] nums, int target ){
         // Menggunakan hashmap untuk menyimpan nilai yang sudah di cek.
         HashMap<Integer, Boolean> hashNum = new HashMap<Integer, Boolean>();
