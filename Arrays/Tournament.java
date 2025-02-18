@@ -22,21 +22,23 @@ public class Tournament {
         HashMap<String, Integer> currentBestTeam = new HashMap<>();
         List<List<String>> listCompetition = competitions.get("competitions");
 
+
+        int highestScore = 0;
+        String winnerName = "";
+
         for (int e = 0; e < results.length; e++) {
             List<String> match = listCompetition.get(e);
             String winner = results[e] == HOME_TEAM_WINS ? match.get(0) : match.get(1);
-            currentBestTeam.put(winner, currentBestTeam.getOrDefault(winner, 0) + 3);
-        }
+            int count = currentBestTeam.getOrDefault(winner, 0) + 3;
 
-        int highestScore = 0;
-        String winner = "";
-        for (Map.Entry<String, Integer> entry : currentBestTeam.entrySet()) {
-            if ( entry.getValue() > highestScore ) {
-                highestScore = entry.getValue();
-                winner = entry.getKey();
+            currentBestTeam.put(winner, count);
+
+            if ( count > highestScore ) {
+                highestScore = count;
+                winnerName = winner;
             }
         }
-        log( winner );
+        log( winnerName );
     }
     private static void log(Object o){
         System.out.println(o);
