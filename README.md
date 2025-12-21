@@ -2,8 +2,6 @@
 
 # 🚀 Algoritma & Struktur Data
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A177F7&center=true&vCenter=true&width=940&lines=Master+Data+Structures+%26+Algorithms" alt="Typing SVG" />
-
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -23,13 +21,7 @@
 
 ## 📖 Tentang
 
-Repository ini berisi implementasi berbagai algoritma dan struktur data yang umum digunakan dalam pemrograman kompetitif dan pengembangan software. Setiap implementasi dilengkapi dengan:
-
-- ✨ Kode yang clean dan mudah dipahami
-- 🎯 Multiple approaches (Brute Force, Optimal)
-- 📝 Dokumentasi dan komentar lengkap
-- 🔍 Debug output untuk learning
-- ⚡ Analisis kompleksitas waktu dan ruang
+Repository ini berisi implementasi berbagai algoritma dan struktur data yang umum digunakan dalam pemrograman kompetitif dan pengembangan software.
 
 ---
 
@@ -49,13 +41,6 @@ Repository ini berisi implementasi berbagai algoritma dan struktur data yang umu
 ```
 
 ---
-
-## 🎯 Kategori
-
-<table>
-<tr>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/color/96/000000/array.png" width="60"/>
 
 ## 🚀 Memulai
 
@@ -112,19 +97,11 @@ Kontribusi sangat diterima! Jika ingin menambahkan algoritma baru atau memperbai
 
 ## 📝 License
 
-Project ini dibuat untuk keperluan pembelajaran dan edukasi.
+Project ini dibuat untuk keperluan pembelajaran.
 
 ---
 
 <div align="center">
-
-### 🌟 Star Repository Ini!
-
-Jika repository ini membantu proses belajar Anda, jangan lupa untuk memberikan ⭐
-
-**Happy Coding!** 💻✨
-
----
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
