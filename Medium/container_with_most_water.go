@@ -1,30 +1,18 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	heights := []int{1, 8, 1, 2, 2, 3, 5}
-	result1 := maxArea(heights)
-	result2 := maxAreaBruteforce(heights)
-	fmt.Printf("Hasil Two Pointers: %d\n", result1)
-	fmt.Printf("Hasil Brute Force: %d\n", result2)
-}
-
 func maxArea(height []int) int {
-	kiri, kanan := 0, len(height)-1
+	indexKiri, indexKanan := 0, len(height)-1
 	areaTerbesar := 0
 
-	for kiri < kanan {
-		jarak := kanan - kiri
-		tinggiTerkecil := min(height[kiri], height[kanan])
+	for indexKiri < indexKanan {
+		jarak := indexKanan - indexKiri
+		tinggiTerkecil := min(height[indexKiri], height[indexKanan])
 		areaTerbesar = max(areaTerbesar, jarak*tinggiTerkecil)
 
-		if height[kiri] < height[kanan] {
-			kiri++
+		if height[indexKiri] < height[indexKanan] {
+			indexKiri++
 		} else {
-			kanan--
+			indexKanan--
 		}
 	}
 	return areaTerbesar
