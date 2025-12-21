@@ -17,23 +17,6 @@ Repository ini berisi implementasi berbagai algoritma dan struktur data yang umu
 
 ---
 
-## 📂 Struktur Project
-
-```
-📦 Data Structures
-├── 🟢 Arrays/
-│   ├── TwoSum
-│   ├── SortedSquare
-│   ├── Subsequence
-│   └── Tournament
-│
-├── 🔵 Medium/ 
-│   └── Container With Most Water
-│
-```
-
----
-
 ## 🚀 Memulai
 
 ### Prerequisites
@@ -50,7 +33,7 @@ java -version
 
 ```bash
 git clone https://github.com/skuknuraknu/Algoritma.git
-cd "Data Structures"
+cd Algoritma
 ```
 
 ### Menjalankan Program
