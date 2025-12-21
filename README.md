@@ -8,13 +8,6 @@
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
 
 **Koleksi implementasi algoritma dan struktur data dalam Go & Java**
-
-[Tentang](#-tentang) •
-[Struktur](#-struktur-project) •
-[Mulai](#-memulai) •
-[Progress](#-progress) •
-[Kontribusi](#-kontribusi)
-
 </div>
 
 ---
