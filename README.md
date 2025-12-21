@@ -83,18 +83,6 @@ java TwoSum
 
 ---
 
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima! Jika ingin menambahkan algoritma baru atau memperbaiki yang sudah ada:
-
-1. Fork repository ini
-2. Buat branch baru (`git checkout -b feature/AmazingAlgorithm`)
-3. Commit perubahan (`git commit -m 'Add some AmazingAlgorithm'`)
-4. Push ke branch (`git push origin feature/AmazingAlgorithm`)
-5. Buat Pull Request
-
----
-
 ## 📝 License
 
 Project ini dibuat untuk keperluan pembelajaran.
